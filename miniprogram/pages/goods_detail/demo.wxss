@@ -1,0 +1,97 @@
+.datail_swiper swiper {
+  height: 100vw;
+  text-align: center;
+}
+.datail_swiper swiper image {
+  width: 60%;
+}
+.good_price {
+  padding: 15rpx;
+  font-size: 32rpx;
+  font-weight: 600;
+  color: red;
+}
+.good_name_row {
+  border-top: 5rpx solid wheat;
+  border-bottom: 5rpx solid wheat;
+  display: flex;
+}
+.good_name_row .good_name {
+  flex: 5;
+  color: black;
+}
+.good_name_row .good_collect {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-left: 1rpx solid #000;
+}
+.good_name_row .good_collect image {
+  width: 20%;
+}
+.good_info .good_info_title {
+  font-size: 30rpx;
+  color: red;
+  font-weight: 600;
+  padding: 20rpx;
+}
+
+
+.tool {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 60rpx;
+  background-color: wheat;
+  display: flex;
+}
+.tool .tool_iten {
+  flex: 1;
+  display: flex;
+  width: 10rpx; 
+  flex-direction: column;
+  justify-content: center;
+   align-items: center;
+}
+.tool .tool_iten button{
+  display: flex;
+  width: 10rpx; 
+  flex-direction: column;
+  justify-content: center;
+   align-items: center;
+   width: 100rpx;
+
+}
+.tool .tool_share {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.tool .btn_cart {
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: yellow;
+  font-size: 30rpx;
+  color: wheat;
+  font-weight: 600;
+}
+.tool .btn_buy {
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: red;
+  font-size: 30rpx;
+  color: wheat;
+  font-weight: 600;
+
+}

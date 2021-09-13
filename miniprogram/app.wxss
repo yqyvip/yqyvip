@@ -1,0 +1,12 @@
+@import "./style/iconfont.wxss";
+/* 小程序不支持通配符 */
+page,view,swiper,swiper-item,image,navigator{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+page{
+    --themec:#eb4450;
+    font-size: 38rpx;
+}

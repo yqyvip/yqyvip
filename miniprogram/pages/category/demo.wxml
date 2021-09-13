@@ -1,0 +1,31 @@
+<view class="cates">
+    <searchinput></searchinput>
+    <view class="cates_container">
+    <!-- 左 -->
+    <scroll-view scroll-y class="left_menu" scroll-top="{{scroll_top}}">
+      <view 
+      wx:for="{{left}}"
+      wx:key="id"
+      wx:for-index="index"
+      wx:for-item="item"
+      bindtap="handtap" 
+      data-index="{{index}}">
+      {{item}}
+      </view>
+    </scroll-view>
+      <!-- 右 -->
+      <scroll-view scroll-y scroll-top="{{currentIndex}}" class="right_content"> 
+      <navigator
+      wx:for="{{right}}"
+      wx:key="id"
+      url="/pages/goods_list/demo?id={{item.id}}"
+      >
+      {{item.id}}
+      {{item.name}}
+      </navigator>
+      </scroll-view>
+        
+  
+    </view>
+</view>
+  

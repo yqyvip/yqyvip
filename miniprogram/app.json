@@ -1,0 +1,59 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/category/demo",
+    "pages/goods_list/demo",
+    "pages/goods_detail/demo",
+    "pages/cart/demo",
+    "pages/collect/demo",
+    "pages/order/demo",
+    "pages/search/demo",
+    "pages/user/demo",
+    "pages/feedback/demo",
+    "pages/login/demo",
+    "pages/auth/demo",
+    "pages/pay/demo"
+  ],
+  "window": {
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#eb4450",
+    "navigationBarTitleText": "小商城",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "color": "#999",
+    "selectedColor": "#ff2d4a",
+    "backgroundColor": "",
+    "position": "bottom",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "icon/home.png",
+        "selectedIconPath": "icon/home_o.png"
+      },
+      {
+        "pagePath": "pages/category/demo",
+        "text": "商品",
+        "iconPath": "icon/cate.png",
+        "selectedIconPath": "icon/cate_o.png"
+      },
+      {
+        "pagePath": "pages/cart/demo",
+        "text": "购物车",
+        "iconPath": "icon/cart.png",
+        "selectedIconPath": "icon/cart_o.png"
+      },
+      {
+        "pagePath": "pages/user/demo",
+        "text": "用户",
+        "iconPath": "icon/my.png",
+        "selectedIconPath": "icon/my_o.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json",
+  "style": "v2"
+}

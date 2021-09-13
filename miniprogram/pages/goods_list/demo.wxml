@@ -1,0 +1,20 @@
+<view>
+    <searchinput></searchinput>
+</view>
+<view class="c"
+wx:for="{{goods}}"
+wx:key="goodsListId"
+>
+  <navigator class="c_" url="/pages/goods_detail/demo?goods_id={{item.goodsListId}}">
+  <view class="c_left">
+    <image mode="widthFix" src="{{item.goodsListImage}}" />
+    </view>
+    <view class="c_right">
+    <view class="c_right_name">{{item.goodsListName}}</view>
+    <view class="c_right_d">{{item.goodsListPrice}}</view>
+    </view>
+  </navigator>
+</view>
+  
+  
+  

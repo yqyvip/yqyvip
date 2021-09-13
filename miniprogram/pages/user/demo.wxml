@@ -1,0 +1,15 @@
+<form bindsubmit="login">
+<view>
+<text >用户名</text>
+<input type="text" name="id" placeholder="用户名"/>
+</view>
+<view>
+<text >密码</text>
+<input type="text" name="nmae" placeholder="密码"/>
+</view>
+<view>
+    <button form-type="submit">提交</button>
+    <button form-type="reset">重置</button>
+</view>
+  
+</form>

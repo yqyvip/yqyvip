@@ -1,0 +1,84 @@
+{
+  "setting": {},
+  "condition": {
+    "plugin": {
+      "list": []
+    },
+    "game": {
+      "list": []
+    },
+    "gamePlugin": {
+      "list": []
+    },
+    "miniprogram": {
+      "list": [
+        {
+          "id": -1,
+          "name": "db guide",
+          "pathName": "pages/databaseGuide/databaseGuide",
+          "query": ""
+        },
+        {
+          "name": "pages/category/demo",
+          "pathName": "pages/category/demo",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/goods_detail/demo",
+          "pathName": "pages/goods_detail/demo",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/user/demo",
+          "pathName": "pages/user/demo",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/cart/demo",
+          "pathName": "pages/cart/demo",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/category/demo",
+          "pathName": "pages/category/demo",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/goods_list/demo",
+          "pathName": "pages/goods_list/demo",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/goods_list/demo",
+          "pathName": "pages/goods_list/demo",
+          "query": "id=70",
+          "scene": null
+        },
+        {
+          "name": "pages/goods_list/demo",
+          "pathName": "pages/goods_list/demo",
+          "query": "id=76",
+          "scene": null
+        },
+        {
+          "name": "pages/goods_detail/demo",
+          "pathName": "pages/goods_detail/demo",
+          "query": "id=1",
+          "scene": null
+        },
+        {
+          "name": "pages/goods_detail/demo",
+          "pathName": "pages/goods_detail/demo",
+          "query": "goods_id=1",
+          "scene": null
+        }
+      ]
+    }
+  }
+}
